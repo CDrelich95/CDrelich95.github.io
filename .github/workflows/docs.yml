@@ -21,7 +21,7 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           # choose pnpm version to use
-          version: 7
+          version: 7.29.1
           # install deps with pnpm
           run_install: true
 
@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           # choose node.js version to use
-          node-version: 18
+          node-version: 18.15.0
           # cache deps for pnpm
           cache: pnpm
 
@@ -48,4 +48,4 @@ jobs:
           build_dir: docs/.vuepress/dist
         env:
           # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          GITHUB_PAT: ${{ GH-Pages-2 }}
+          GITHUB_PAT: GH-Pages-2
