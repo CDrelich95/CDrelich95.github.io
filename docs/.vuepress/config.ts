@@ -1,7 +1,7 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
-  base: '/expbg-docs/',
+  base: '/',
   lang: 'en-US',
   title: 'ExpBG User Guide',
   description: 'Above statement does not take repo download times into consideration.',
