@@ -25,15 +25,9 @@ export default defineUserConfig({
       '/guide/': [
         {
           text: 'Guide',
-          children: ['/guide/','/guide/configuration.md','/guide/daily-use.md']
+          children: ['/guide/','/guide/configuration.md','/guide/daily-use.md','/guide/faq.md']
         }
       ],
-      '/faq/': [
-        {
-          text: 'Frequently Asked Questions',
-          children: ['/faq/']
-        }
-      ]
     }
   })
 })
