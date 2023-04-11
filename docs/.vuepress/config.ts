@@ -19,6 +19,20 @@ export default defineUserConfig({
           text: 'FAQ',
           link: '/faq/'
       }
-    ]
+    ],
+    sidebar: {
+      '/guide/': [
+        {
+          text: 'Guide',
+          children: ['/guide/','/guide/configuration.md','/guide/daily-use.md']
+        }
+      ],
+      '/faq/': [
+        {
+          text: 'Frequently Asked Questions',
+          children: ['/faq/']
+        }
+      ]
+    }
   })
 })
