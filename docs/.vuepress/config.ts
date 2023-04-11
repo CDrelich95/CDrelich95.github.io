@@ -4,7 +4,7 @@ export default defineUserConfig({
   base: '/',
   lang: 'en-US',
   title: 'ExpBG User Guide',
-  description: 'Above statement does not take repo download times into consideration.',
+  description: 'Based on the original guide written by A.Melkho',
   theme: defaultTheme({
     navbar: [
       {

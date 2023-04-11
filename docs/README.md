@@ -1,6 +1,7 @@
 ---
-home: true,
-heroText: 'Find out how to use ArmA3Sync to join our servers in 10 mins or less*'
+home: true
+heroImage: /images/expbg-logo.png
+heroText: 'ArmA3Sync Installation Guide'
 actions:
   - text: Install ArmA3Sync
     link: /guide/
@@ -8,15 +9,10 @@ actions:
   - text: Repo Setup
     link: https://www.theexpeditionarybattlegroup.com
     type: secondary
-footer: Powered by VuePress 2 | Copyright © 2014-2023 The Expeditionary BattleGroup
+footer: Version 2.0.3 | Copyright © 2014-2023 The Expeditionary BattleGroup
 ---
 
-# Example text
+# About
 
-Hello there!
-```js
-{
-  general: "Kenobi!",
-  you_are: "A bold one."
-}
-```
+This will guide you through the installation process and help you configure ArmA3Sync for use on
+Expeditionary Battle Group servers.
