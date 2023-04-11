@@ -14,3 +14,8 @@ footer: Powered by VuePress 2 | Copyright © 2014-2023 The Expeditionary BattleG
 # Example text
 
 Hello there!
+```js
+{
+  general: "Kenobi!"
+}
+```
