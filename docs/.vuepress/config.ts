@@ -6,6 +6,7 @@ export default defineUserConfig({
   title: 'ExpBG User Guide',
   description: 'Based on the original guide written by A.Melkho',
   theme: defaultTheme({
+    logo: 'images/expbg-logo.png',
     navbar: [
       {
           text: 'User Guide',
