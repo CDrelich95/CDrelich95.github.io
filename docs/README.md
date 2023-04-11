@@ -16,6 +16,7 @@ footer: Powered by VuePress 2 | Copyright © 2014-2023 The Expeditionary BattleG
 Hello there!
 ```js
 {
-  general: "Kenobi!"
+  general: "Kenobi!",
+  you_are: "A bold one."
 }
 ```
