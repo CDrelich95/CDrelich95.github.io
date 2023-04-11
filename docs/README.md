@@ -11,3 +11,6 @@ actions:
 footer: Powered by VuePress 2 | Copyright © 2014-2023 The Expeditionary BattleGroup
 ---
 
+# Example text
+
+Hello there!
