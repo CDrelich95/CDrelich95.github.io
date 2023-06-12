@@ -7,7 +7,10 @@ actions:
     link: /guide/
     type: primary
   - text: Repo Setup
-    link: https://www.theexpeditionarybattlegroup.com
+    link: /guide/configuration.md#add-a-remote-repository
+    type: primary
+  - text: Troubleshooting
+    link: /guide/faq.md
     type: secondary
 footer: Version 2.0.3 | Copyright © 2014-2023 The Expeditionary BattleGroup
 ---

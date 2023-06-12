@@ -21,12 +21,12 @@
 
     // table colors
     th:nth-child(odd) {
-      background-color: #462d8c;
+      background-color: #c80707;
       color: #f4f4f4;
     }
 
     th:nth-child(even) {
-      background-color: #462d8c;
+      background-color: #c80707;
       color: #ffffff;
     }
   
@@ -161,12 +161,24 @@
     --c-text-lighter: #8b9eb0;
     --c-text-lightest: #8094a8;
   
+    // table colors
+    th:nth-child(odd) {
+      background-color: #caa205;
+      color: #f4f4f4;
+    }
+
+    th:nth-child(even) {
+      background-color: #caa205;
+      color: #f4f4f4;
+    }
+
     // border colors
     --c-border: #3e4c5a;
     --c-border-dark: #34404c;
   
     // custom container colors
     --c-tip: #318a62;
+    --c-tip-title: #318a62;
     --c-warning: #ceab00;
     --c-warning-bg: #514b2a;
     --c-warning-title: #ceac03;

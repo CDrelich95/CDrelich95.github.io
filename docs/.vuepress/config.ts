@@ -13,6 +13,14 @@ export default defineUserConfig({
           link: '/guide/'
       },
       {
+        text: 'Repo List',
+        link: '/repos/'
+      },
+      {
+        text: 'Servers',
+        link: '/servers/'
+      },
+      {
           text: 'ExpBG website',
           link: 'https://www.theexpeditionarybattlegroup.com'
       },
@@ -28,6 +36,12 @@ export default defineUserConfig({
           children: ['/guide/','/guide/configuration.md','/guide/daily-use.md','/guide/faq.md']
         }
       ],
+      '/servers/': [
+        {
+          text: 'Servers',
+          link: '/servers/'
+        }
+      ]
     }
   })
 })
