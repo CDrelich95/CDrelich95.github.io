@@ -4,9 +4,11 @@ title: Getting started
 description: Downloading and installing ArmA3Sync with an initial setup procedure.
 ---
 
-- Explain what repos are and how they work
+<!---
+Explain what repos are and how they work
 - Explain that we use ArmA3Sync for the above
 - Invite users to first page
+-->
 
 # Getting started
 

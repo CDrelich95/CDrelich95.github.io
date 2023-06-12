@@ -25,8 +25,8 @@ export default defineUserConfig({
           link: 'https://www.theexpeditionarybattlegroup.com'
       },
       {
-          text: 'FAQ',
-          link: '/faq/'
+          text: 'Release Notes',
+          link: '/release-notes/'
       }
     ],
     sidebar: {
