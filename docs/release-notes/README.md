@@ -25,9 +25,6 @@ description: A history of all the commits since the beginning of the site's exis
 - restructured page content
 - added sample screenshots
 - first decent commit
-- added another line to code block
-- added sample javascript code block
-- added H1 and sample text
 
 ## March 2023
 
