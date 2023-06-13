@@ -1,7 +1,7 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
-  base: '/expbg.github.io/',
+  base: '/expbg-docs/',
   lang: 'en-US',
   title: 'ExpBG User Guide',
   description: 'Based on the original guide written by A.Melkho',
