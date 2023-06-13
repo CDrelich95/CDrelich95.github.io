@@ -8,6 +8,7 @@ description: A history of all the commits since the beginning of the site's exis
 
 ## June 2023
 
+- added these Release Notes!
 - fixed internal structure
 - added missing content
 - updated table colours to match colour scheme
