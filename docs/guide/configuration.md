@@ -16,7 +16,7 @@ Otherwise, follow these instructions:
 
 ![](./resources/config-1.png)
 
-1. Select **New**, enter a profile name (e.g. ExpBG) and click **OK**.
+2. Select **New**, enter a profile name (e.g. ExpBG) and click **OK**.
 
 ![](./resources/config-2.png)
 
