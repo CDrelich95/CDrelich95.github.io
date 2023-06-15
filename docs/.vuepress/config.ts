@@ -21,13 +21,13 @@ export default defineUserConfig({
         link: '/servers/'
       },
       {
-          text: 'ExpBG website',
-          link: 'https://www.theexpeditionarybattlegroup.com'
-      },
-      {
           text: 'Release Notes',
           link: '/release-notes/'
-      }
+      },
+      {
+        text: 'ExpBG website',
+        link: 'https://www.theexpeditionarybattlegroup.com'
+      },
     ],
     sidebar: {
       '/guide/': [
