@@ -3,10 +3,15 @@ import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   base: '/expbg-docs/',
-  head: [['link', { rel: 'icon', href: '/favicon.ico' } ]],
+  head: [['link', { rel: 'icon', href: './favicon.ico' } ]],
   lang: 'en-US',
   title: 'ExpBG User Guide',
   description: 'Based on the original guide written by A.Melkho',
+  plugins: [
+    (
+      searchPlugin
+    )
+  ],
 
   theme: defaultTheme({
     logo: 'images/expbg-logo.png',
