@@ -1,16 +1,19 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   base: '/expbg-docs/',
+  head: [['link', { rel: 'icon', href: '/favicon.ico' } ]],
   lang: 'en-US',
   title: 'ExpBG User Guide',
   description: 'Based on the original guide written by A.Melkho',
+
   theme: defaultTheme({
     logo: 'images/expbg-logo.png',
     navbar: [
       {
-          text: 'User Guide',
-          link: '/guide/'
+        text: 'User Guide',
+        link: '/guide/'
       },
       {
         text: 'Repo List',
@@ -21,8 +24,8 @@ export default defineUserConfig({
         link: '/servers/'
       },
       {
-          text: 'Release Notes',
-          link: '/release-notes/'
+        text: 'Release Notes',
+        link: '/release-notes/'
       },
       {
         text: 'ExpBG website',
@@ -36,12 +39,6 @@ export default defineUserConfig({
           children: ['/guide/','/guide/configuration.md','/guide/daily-use.md','/guide/faq.md']
         }
       ],
-      '/servers/': [
-        {
-          text: 'Servers',
-          link: '/servers/'
-        }
-      ]
     }
   })
 })

@@ -2,6 +2,7 @@
 language: enUS
 title: Servers
 description: IP Addresses and credentials needed to join an ExpBG server.
+sidebar: auto
 ---
 
 # Servers
